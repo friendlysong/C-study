@@ -1,1 +1,13 @@
 第一节课的练习 hello world!
+----------------------------------------------
+Step1：在vscode里面安装相应插件，以及gcc相关的工具msys64
+然后在终端运行 gcc -g HelloWorld.c -0 HelloWorld.exe
+之后运行 HelloWorld.exe文件可以显示结果；
+
+----------------------------------------------
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
